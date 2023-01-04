@@ -33,7 +33,7 @@ a:hover {
 }
 
 .paper {
-  border-left: 1px solid; 
+  border-left: 1px solid;
   border-left-color: "#111";
 }
 
@@ -74,6 +74,15 @@ a:hover {
   padding: 0% 0% 56.25%; /* 16:9 ratio */
   overflow: hidden;
 }
+.bannercontainer {
+  position: relative;
+  display: block;
+  width: 90%; /* width of iframe wrapper */
+  height: 60px;
+  margin: auto;
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   .fixed-posi {
     /* width: 50%;
