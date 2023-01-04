@@ -10,6 +10,9 @@ const highlightcolor = "#111";
 // const basecolor = "#888";
 // const accentcolor = "#222";
 // const highlight = "#111";
+const claycolour= "#cd9865";
+const bluecolour = "#3275dd";
+const greycolour = "#a8a19f";
 
 // Body properties
 const bodyfontweight = 300;
@@ -97,7 +100,7 @@ $(".header").css("text-decoration", headerdecoration);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
 
-$(".papertitle").css("color", ptitlecolor);
+$(".papertitle").css("color", bluecolour);
 $(".papertitle").css("font-size", ptitlefontsize);
 $(".papertitle").css("font-weight", ptitleweight);
 $(".papertitle").css("text-decoration", ptitledecoration);
