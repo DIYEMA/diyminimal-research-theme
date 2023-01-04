@@ -1,99 +1,107 @@
 .instilogo {
-    height: 50px;
-    filter: grayscale(20%);
+  height: 50px;
+  filter: grayscale(20%);
 }
 
 a:hover {
-    /* font-weight: 400; */
-    text-decoration: none;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
-    /* color: #444; */
+  /* font-weight: 400; */
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  /* color: #444; */
 }
 
-
 .noter {
-    font-size: 9pt;
+  font-size: 9pt;
 }
 
 .tagsep {
-    padding: 4px;
+  padding: 4px;
 }
 
 .tag {
-    padding-right: 2px;
+  padding-right: 2px;
 }
 
 .confshort {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .conf {
-    display: inline-block;
-    padding-bottom: 4px;
+  display: inline-block;
+  padding-bottom: 4px;
 }
 
 .paper {
-    border-left: 1px solid "#1b6ee0";
+  border-left: 1px solid "#1b6ee0";
 }
 
 .menulink:hover {
-    color: #111;
+  color: #111;
 }
 
 .profilepic {
-    width: 90px;
-    border-radius: 40%;
-    /* filter: grayscale(100%); */
+  width: 90px;
+  border-radius: 40%;
+  /* filter: grayscale(100%); */
 }
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  .row {
-    display: flex;
-  }
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-  /* Clear floats after image containers */
-  .videoembed{
-    width:100%;
-  }
-  .videoembedcontainer{
-    display: flex;
-    align-items:center;
-    justify-content:center;
-  }
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row {
+  display: flex;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/* Clear floats after image containers */
+.videoembed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.videoembedcontainer {
+  position: relative;
+  display: block;
+  width: 90%; /* width of iframe wrapper */
+  height: 0;
+  margin: auto;
+  padding: 0% 0% 56.25%; /* 16:9 ratio */
+  overflow: hidden;
+}
 @media (min-width: 768px) {
-    .fixed-posi {
-        /* width: 50%;
+  .fixed-posi {
+    /* width: 50%;
             margin-left: 50%;
             min-height:100%; */
-        position: fixed;
-    }
+    position: fixed;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .allstuff {
-        padding-top: 0px !important;
-    }
+  .allstuff {
+    padding-top: 0px !important;
+  }
 
-    .allstuffp {
-        padding-top: 0px !important;
-    }
+  .allstuffp {
+    padding-top: 0px !important;
+  }
 
-    .profilepic {
-        width: 60px;
-        border-radius: 40%;
-        padding-top: 0px !important;
-        padding-bottom: 0px !important;
-        /* filter: grayscale(100%); */
-    }
+  .profilepic {
+    width: 60px;
+    border-radius: 40%;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    /* filter: grayscale(100%); */
+  }
 
-    .menur {
-        padding-top: 18px !important;
-    }
-
+  .menur {
+    padding-top: 18px !important;
+  }
 }
 
 /* .thisauthor {
