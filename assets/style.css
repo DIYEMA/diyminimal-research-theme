@@ -56,6 +56,9 @@ a:hover {
   }
   /* Three image containers (use 25% for four, and 50% for two, etc) */
   /* Clear floats after image containers */
+  .videoembed{
+    display:flex;
+  }
 @media (min-width: 768px) {
     .fixed-posi {
         /* width: 50%;
