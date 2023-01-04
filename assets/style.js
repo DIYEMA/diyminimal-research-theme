@@ -43,7 +43,7 @@ const headerdecoration = "none";
 const namecolor = accentcolor;
 const namefontsize = "23pt";
 
-const boldnormtext = 600;
+const boldnormtext = 900;
 
 // Publication properties
 const ptitlecolor = accentcolor;
