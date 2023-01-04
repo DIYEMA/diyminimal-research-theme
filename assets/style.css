@@ -34,7 +34,7 @@ a:hover {
 
 .paper {
   border-left: 1px solid; 
-  border-color: "#1b6ee0";
+  border-left-color: "#1b6ee0";
 }
 
 .menulink:hover {
