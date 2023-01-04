@@ -10,9 +10,11 @@ const highlightcolor = "#111";
 // const basecolor = "#888";
 // const accentcolor = "#222";
 // const highlight = "#111";
-const claycolour= "#cd9865";
-const bluecolour = "#3275dd";
-const greycolour = "#a8a19f";
+const claycolour= "#b76c36";
+const bluecolour = "#1b6ee0";
+const greycolour = "#b19e7d";
+const orangecolour = "#efa04b";
+
 
 // Body properties
 const bodyfontweight = 300;
@@ -41,6 +43,7 @@ const headerdecoration = "none";
 const namecolor = accentcolor;
 const namefontsize = "23pt";
 
+const boldnormtext = 600;
 
 // Publication properties
 const ptitlecolor = accentcolor;
@@ -102,7 +105,7 @@ $(".name").css("font-size", namefontsize);
 
 $(".papertitle").css("color", bluecolour);
 $(".papertitle").css("font-size", ptitlefontsize);
-$(".papertitle").css("font-weight", ptitleweight);
+$(".papertitle").css("font-weight", boldnormtext);
 $(".papertitle").css("text-decoration", ptitledecoration);
 $(".papertitle").css("font-style", ptitlestyle);
 
