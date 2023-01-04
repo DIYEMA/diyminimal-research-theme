@@ -57,7 +57,7 @@ a:hover {
   /* Three image containers (use 25% for four, and 50% for two, etc) */
   /* Clear floats after image containers */
   .videoembed{
-    flex:1;
+    width:100%;
   }
   .videoembedcontainer{
     display: flex;
